@@ -16,7 +16,6 @@ MCGM-Styler is a generative model for text-to-image synthesis that combines pose
 
 ## ⚙️ Installation
 ```bash
-# Example (modify based on your code)
 git clone https://github.com/roskaik432/MCGM-Styler.git
 cd REPO_NAME
 pip install -r requirements.txt
