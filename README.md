@@ -2,7 +2,7 @@
 
 Official repository for *MCGM-styler: Free-Form styler for Mask Conditional Text-to-Image Generative Model*
 
-![summary of the paper](cover page.jpg)
+![summary of the paper](coverpage.jpg)
 
 
 ## 🧠 Paper
