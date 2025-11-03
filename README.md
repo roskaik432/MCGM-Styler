@@ -21,8 +21,7 @@ conda env create -f environment.yml
 conda activate MCGM_Styler
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 
-### ⚙️ Training
-```bash
+### Training
 python train.py \
   --instance_data_dir","examples/mask_path",
   "--num_of_assets","1",
