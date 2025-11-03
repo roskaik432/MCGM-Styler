@@ -44,4 +44,12 @@ python train.py \
   "--token_prompt","ENTER THE PROMPT OF THE IMAGE STYLE DESCRIPTION (HUMAN FEEDBACK PROMPT)",
 ```
 
+### generating images 
+```bash
+python inference.py \
+  --model_path "ENTER YOUR TRAINED MODEL PATH" \
+  --mask_path "ENTER THE PATH OF YOUR POSE MASK" \
+  --output_path " ENTER THE DESTINATION_PATH " \
+  --prompt "ENTER YOU GENERATION PROMPT" \
 
+```
