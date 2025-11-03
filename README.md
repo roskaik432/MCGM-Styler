@@ -21,9 +21,10 @@ conda env create -f environment.yml
 conda activate MCGM_Styler
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 
----
+```
 
 ### Training
+```bash
 python train.py \
   --instance_data_dir","examples/mask_path",
   "--num_of_assets","1",
@@ -41,6 +42,6 @@ python train.py \
   "--pretrained_model_name_or_path","ENTER THE PATHE OF THE MODEL",
   "--do_not_apply_masked_loss", 
   "--token_prompt","ENTER THE PROMPT OF THE IMAGE STYLE DESCRIPTION (HUMAN FEEDBACK PROMPT)",
-
+```
 
 
